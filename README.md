@@ -1,12 +1,12 @@
 # gocloak
 
-[![codebeat badge](https://codebeat.co/badges/18a37f35-6a95-4e40-9e78-272233892332)](https://codebeat.co/projects/github-com-nerzal-gocloak-main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Nerzal/gocloak)](https://goreportcard.com/report/github.com/Nerzal/gocloak)
-[![Go Doc](https://godoc.org/github.com/Nerzal/gocloak?status.svg)](https://godoc.org/github.com/Nerzal/gocloak)
-[![Build Status](https://github.com/Nerzal/gocloak/workflows/Tests/badge.svg)](https://github.com/Nerzal/gocloak/actions?query=branch%3Amain+event%3Apush)
-[![GitHub release](https://img.shields.io/github/tag/Nerzal/gocloak.svg)](https://GitHub.com/Nerzal/gocloak/releases/)
-[![codecov](https://codecov.io/gh/Nerzal/gocloak/branch/master/graph/badge.svg)](https://codecov.io/gh/Nerzal/gocloak)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fgocloak.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fgocloak?ref=badge_shield)
+[![codebeat badge](https://codebeat.co/badges/18a37f35-6a95-4e40-9e78-272233892332)](https://codebeat.co/projects/github-com-sirockin-gocloak-main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sirockin/gocloak)](https://goreportcard.com/report/github.com/sirockin/gocloak)
+[![Go Doc](https://godoc.org/github.com/sirockin/gocloak?status.svg)](https://godoc.org/github.com/sirockin/gocloak)
+[![Build Status](https://github.com/sirockin/gocloak/workflows/Tests/badge.svg)](https://github.com/sirockin/gocloak/actions?query=branch%3Amain+event%3Apush)
+[![GitHub release](https://img.shields.io/github/tag/sirockin/gocloak.svg)](https://GitHub.com/sirockin/gocloak/releases/)
+[![codecov](https://codecov.io/gh/sirockin/gocloak/branch/master/graph/badge.svg)](https://codecov.io/gh/sirockin/gocloak)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsirockin%2Fgocloak.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsirockin%2Fgocloak?ref=badge_shield)
 
 Golang Keycloak API Package
 
@@ -14,13 +14,13 @@ This client is based on: [go-keycloak](https://github.com/PhilippHeuer/go-keyclo
 
 For Questions either raise an issue, or come to the [gopher-slack](https://invite.slack.golangbridge.org/) into the channel [#gocloak](https://gophers.slack.com/app_redirect?channel=gocloak)
 
-If u are using the echo framework have a look at [gocloak-echo](https://github.com/Nerzal/gocloak-echo)
+If u are using the echo framework have a look at [gocloak-echo](https://github.com/sirockin/gocloak-echo)
 
-Benchmarks can be found [here](https://nerzal.github.io/gocloak/dev/bench/)
+Benchmarks can be found [here](https://sirockin.github.io/gocloak/dev/bench/)
 
 ## Contribution
 
-(WIP) <https://github.com/Nerzal/gocloak/wiki/Contribute>
+(WIP) <https://github.com/sirockin/gocloak/wiki/Contribute>
 
 ## Changelog
 
@@ -65,7 +65,7 @@ Bugfix: #305 Fix function signature of LoginClientTokenExchange function
 #### V9.0.1
 
 Breaking changes were introduced in #285
-See: https://github.com/Nerzal/gocloak/pull/285/files
+See: https://github.com/sirockin/gocloak/pull/285/files
 
 New Features:
 - #301 adding APIs handler to fetch policy resources 
@@ -116,7 +116,7 @@ There are several backward incompatible changes
 
 There is only one change, but it's backward incompatible:
 
-- Wrap Errors and use APIError struct to also provide the httpstatus code. ([#146](https://github.com/Nerzal/gocloak/pull/146))
+- Wrap Errors and use APIError struct to also provide the httpstatus code. ([#146](https://github.com/sirockin/gocloak/pull/146))
 
 ### v4
 
@@ -130,13 +130,13 @@ There are a lot of backward incompatible changes:
 ### Installation
 
 ```shell
-go get github.com/Nerzal/gocloak/v10
+go get github.com/sirockin/gocloak/v10
 ```
 
 ### Importing
 
 ```go
- import "github.com/Nerzal/gocloak/v10"
+ import "github.com/sirockin/gocloak/v10"
 ```
 
 ### Create New User
@@ -564,7 +564,7 @@ Note that empty parameters are not included, because of the use of ```omitempty`
 
 ## License
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fgocloak.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fgocloak?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsirockin%2Fgocloak.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsirockin%2Fgocloak?ref=badge_large)
 
 ## Related Projects
 
